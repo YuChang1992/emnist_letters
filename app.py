@@ -14,6 +14,8 @@ from tensorflow.keras.models import model_from_json
 model = tf.keras.models.load_model('emnist_cnn_model.keras', compile=False)
 # model = tf.keras.models.load_model('model.h5')
 
+st.title('手寫英文字母辨識')
+
 col1, col2 = st.columns(2)
 
 # Create a canvas component
